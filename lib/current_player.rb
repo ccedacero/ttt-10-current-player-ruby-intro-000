@@ -1,5 +1,5 @@
-def turn_count(board)
   turn = 0
+def turn_count(board)
     board.each do |value|
   turn +=1 
 end
