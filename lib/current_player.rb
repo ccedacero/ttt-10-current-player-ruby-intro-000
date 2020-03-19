@@ -10,4 +10,9 @@ end
 
 def current_player(board)
   next_turn = turn_count(board)
-  if 
+  if next_turn % 2 == 0 
+    return 'X'
+  else 
+    return 'Y'
+  end
+end
