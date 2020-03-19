@@ -13,4 +13,3 @@ def current_player(turn)
     return 'O'
   end
 end
-end
