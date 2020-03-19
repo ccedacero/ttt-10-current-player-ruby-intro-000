@@ -1,10 +1,8 @@
 def turn_count(board)
     board.each do |value|
-    turn = 0
-    turn +=1 
-end
-return turn
-end
+    return board.size 
+  end
+end 
 
 def current_player(turn)
   if turn % 2 == 0 
